@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import Welcome from "./Welcome";
 import DateAndTime from "./DateAndTime";
-import Dockbar from "./Dockbar";
+import Dock from "./Dock";
 
-export { Navbar, Welcome, DateAndTime, Dockbar };
+export { Navbar, Welcome, DateAndTime, Dock };

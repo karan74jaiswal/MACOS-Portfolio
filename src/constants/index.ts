@@ -1,4 +1,4 @@
-import type { Navlink, NavIcon } from "#types";
+import type { Navlink, NavIcon, DockApp } from "#types";
 
 const navLinks: Navlink[] = [
   {
@@ -37,7 +37,7 @@ const navIcons: NavIcon[] = [
   },
 ];
 
-const dockApps = [
+const dockApps: DockApp[] = [
   {
     id: "finder",
     name: "Portfolio", // was "Finder"

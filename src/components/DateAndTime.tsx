@@ -1,6 +1,6 @@
 import dayjs from "dayjs";
-import { useState, useEffect } from "react";
-export default function DateAndTime() {
+import { type JSX, useState, useEffect } from "react";
+export default function DateAndTime(): JSX.Element {
   const [currentTime, setCurrentTime] = useState<string>(
     dayjs().format("ddd D MMM h:mm A")
   );

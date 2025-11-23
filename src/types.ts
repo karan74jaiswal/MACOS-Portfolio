@@ -7,3 +7,9 @@ export interface NavIcon {
   id: number;
   img: string;
 }
+
+export interface FontWeight {
+  min: number;
+  max: number;
+  default: number;
+}

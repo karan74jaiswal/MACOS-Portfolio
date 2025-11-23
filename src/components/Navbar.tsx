@@ -1,8 +1,9 @@
 import type { Navlink, NavIcon } from "#types";
 import { navLinks, navIcons } from "#constants";
 import DateAndTime from "./DateAndTime";
+import { type JSX } from "react";
 
-export default function Navbar() {
+export default function Navbar(): JSX.Element {
   return (
     <nav>
       <div>

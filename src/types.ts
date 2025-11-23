@@ -13,3 +13,10 @@ export interface FontWeight {
   max: number;
   default: number;
 }
+
+export interface DockApp {
+  id: string;
+  name: string;
+  icon: string;
+  canOpen: boolean;
+}

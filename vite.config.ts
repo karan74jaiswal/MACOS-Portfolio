@@ -13,6 +13,9 @@ export default defineConfig({
     }),
     tailwindcss(),
   ],
+  server: {
+    allowedHosts: true,
+  },
   resolve: {
     alias: {
       "#components": resolve(
